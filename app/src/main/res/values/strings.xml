@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SportsQuestionGamingFull</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="history">
+        The history of sports extends back
+to the Ancient world. The physical
+activity that developed into sports
+had early links with ritual, warfare
+and entertainment.
+
+Study of the history of sport can
+teach lessons about social changes
+and about the nature of sport itself,
+as sport seems involved in the
+development of basic human skills
+
+As one delves further back in history,
+dwindling evidence makes theories
+of the origins and purposes of sport
+more and more difficult to support.
+    </string>
+</resources>

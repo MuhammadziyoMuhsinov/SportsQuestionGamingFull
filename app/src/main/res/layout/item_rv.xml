@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_60sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+<TextView
+    android:id="@+id/task"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="1-steo"
+    android:textColor="@color/black"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    android:textSize="@dimen/_10ssp"
+    android:layout_margin="@dimen/_5sdp"
+    />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    android:layout_margin="@dimen/_5sdp"
+    >
+
+    <TextView
+        android:id="@+id/correct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correct: 10"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"/>
+
+    <TextView
+        android:id="@+id/wrong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wrong: 10"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15ssp"/>
+
+
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="20.01.2022"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:textSize="@dimen/_8ssp"
+        android:textColor="@color/black"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+      android:layout_marginTop="@dimen/_5sdp"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
